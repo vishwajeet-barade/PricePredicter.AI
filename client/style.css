@@ -1,0 +1,135 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(51, 51, 51, 0.3); /* Transparent container */
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(253, 127, 54);
+    background-color: rgba(206, 206, 210, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(245, 245, 246);
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgba(249, 216, 184, 0.3); /* Input fields grey */
+    color: rgb(251, 97, 8);
+    font-weight: bold;
+    outline: none;
+}
+
+button {
+    width: 63%;
+    background-color: #d3d3d3; /* White-grey */
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b0b0b0;
+}
+
+#location {
+    color:rgb(47, 46, 46);
+    background-color: rgb(253, 127, 54);
+    width: 63%;
+}
+
+#result {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 95%;
+
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input, select, button {
+        font-size: 14px;
+    }
+
+    #result {
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+
+    #location {
+        width: 50%;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .container { 
+        width: 45%;
+    }
+    
+    .form-group {
+        margin: 8px 0;
+    }
+    
+    label {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    
+    input, select {
+        width: 55%;
+        padding: 8px;
+        font-size: 1rem;
+    }
+}

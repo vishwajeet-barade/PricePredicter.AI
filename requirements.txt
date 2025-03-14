@@ -1,0 +1,4 @@
+Flask
+flask-cors
+numpy
+pickle5  # (optional, if using an older Python version)
