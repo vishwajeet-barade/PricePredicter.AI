@@ -36,15 +36,7 @@ This project is built using Flask (backend), HTML/CSS/JavaScript (frontend), and
 
 The model is built using Python, NumPy, and Scikit-Learn. It takes features like:
 
-Location
-
-BHK (1BHK, 2BHK, etc.)
-
-Number of Bathrooms
-
-Total Area (sqft)
-
-Other property attributes
+Location , BHK (1BHK, 2BHK, etc.) , Number of Bathrooms , Total Area (sqft) ,Other property attributes
 
 It predicts real estate prices based on patterns learned from historical sales data.
 
@@ -56,13 +48,7 @@ It predicts real estate prices based on patterns learned from historical sales d
 
 Make sure you have:
 
-Python 3.8+
-
-Flask
-
-Jupyter Notebook
-
-HTML, CSS, JavaScript (for frontend)
+Python 3.8+ ,Flask ,Jupyter Notebook ,HTML, CSS, JavaScript (for frontend)
 
 
 🔹 Steps to Run the Project
@@ -84,6 +70,9 @@ python server.py
 cd client
 
 python -m http.server 5000
+
+![image](https://github.com/user-attachments/assets/672ef78e-41c2-4d3b-abba-a227b35469f3)
+
 
 
 
