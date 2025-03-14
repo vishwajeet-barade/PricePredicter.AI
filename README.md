@@ -3,6 +3,8 @@
 
 📌 Overview
 
+
+
 Real Estate Price Predictor is a web-based application that estimates property prices based on location, number of bedrooms, bathrooms, area (sqft), and BHK 
 
 configuration. It uses a Machine Learning model (trained with historical real estate data) to provide accurate price predictions.
@@ -11,7 +13,9 @@ This project is built using Flask (backend), HTML/CSS/JavaScript (frontend), and
 
 
 
-🛠️ Features
+#🛠️ Features
+
+
 
 ✅ Predicts real estate prices based on user inputs
 
@@ -26,7 +30,9 @@ This project is built using Flask (backend), HTML/CSS/JavaScript (frontend), and
 ✅ JSON-based responses for integration with other applications
 
 
-📡 Machine Learning Model
+#📡 Machine Learning Model
+
+
 
 The model is built using Python, NumPy, and Scikit-Learn. It takes features like:
 
@@ -42,7 +48,9 @@ Other property attributes
 
 It predicts real estate prices based on patterns learned from historical sales data.
 
-💻 Installation & Setup
+
+
+#💻 Installation & Setup
 
 🔹 Prerequisites
 
